@@ -1,0 +1,9 @@
+#scroll-bar::before{
+    content: "";
+    width:calc(100% - 15px);
+    height: 0;
+    border-bottom: 14px solid #400060;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
