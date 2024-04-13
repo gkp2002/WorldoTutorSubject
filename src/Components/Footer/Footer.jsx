@@ -10,61 +10,72 @@ function Footer() {
 
   return (
     <div className="bg-black md:flex md:justify-center md:items-center flex-col text-white w-full py-0">
-      <div className=" flex flex-col lg:flex-row md:items-start items-center text-white lg:items-center justify-evenly w-full px-5">
-     <div className="text-center flex justify-center items-start flex-col pt-[5vw] md:gap-6 mb-4">
-       <p className=' text-4xl font-bold mb-1 md:text-[1.8vmax]'><img src="https://www.worldotutor.com/assets/images/logo.png" alt="" /></p>
-       <button className='text-center cursor-pointer font-semibold text-xl rounded-[10em] border-none md:p-4 py-3 px-9 text-white bg-red-600 hover:opacity-50 md:text-[1.2vmax] '>LET`S WORK TOGETHER</button>
-     </div>
-     <div className=" ">
-     <h1 className='text-xl md:text-[1.3vmax] font-semibold md:my-4'>Contact Infomation</h1>
-    <p className="text-sm md:text-[1vmax] font-semibold md:my-2"> WorldoTurtor@worldo.com</p>
-    <p className="text-sm md:text-[1vmax] font-semibold md:my-2"> US: +1 650 753 8157</p>
-    <p className="text-sm  md:text-[1vmax] font-semibold md:my-2"> US: +1 650 753 8157</p>
-     </div>
-     <div className="">
-        <h2 className='text-xl font-semibold leading-8 md:text-[1.3vmax]'>Sitemap</h2>
-        <div className='flex'>
-        <a href="#" className="md:text-[1vmax] hover:text-slate-600 no-underline text-white text-sm border-none p-1">HOME</a>
-        <a href="#" className="md:text-[1vmax] hover:text-slate-600 no-underline text-white text-sm border-none p-1">HOME</a>
-        </div>
+     <section className='grid md:grid-cols-4 grid-row-4 md:px-12 w-full '>
+       <div className='h-[420px] mx-2  w-full py-12 px-9'>
+         <img src="https://www.worldotutor.com/assets/images/logo.png" alt="" className='mb-5'/>
+         <p className='text-xl font-normal opacity-50'>India’s largest online platform where thousands of students and teachers across the globe participate in an effective educational exchange.</p>
+       </div>
+       <div  className='h-[420px] mx-2  w-full flex flex-col md:items-center px-9  '>
        
-        <div className='flex'>
-        <a href="#" className="md:text-[1vmax] hover:text-slate-600 no-underline text-white text-sm border-none p-1">HOME</a>
-        <a href="#" className="md:text-[1vmax] hover:text-slate-600 no-underline text-white text-sm border-none p-1">HOME</a>
-        </div>
-        
-        <div className='flex'>
-        <a href="#" className="md:text-[1vmax] hover:text-slate-600 no-underline text-white text-sm border-none p-1">HOME</a>
-        <a href="#" className="md:text-[1vmax] hover:text-slate-600 no-underline text-white text-sm border-none p-1">HOME</a>
-        </div>
-       
-
-     </div>
-     <div className=" flex text-center justify-center items-start flex-col">
-       <h2 className='text-xl md:text-[1.3vmax] font-semibold md:mb-3'>
-       Location
-       </h2>
-       <p className="text-sm md:text-[1vmax] font-semibold md:mb-1"> SILICON VALLEY</p>
-       <p className="text-sm md:text-[1vmax] font-semibold md:mb-1 "> NEW YORK CITY</p>
-       <p className="text-sm md:text-[1vmax] font-semibold "> INDIA</p>
-     </div>
-
-     </div>
-
-
-
-
-
-    <div className="flex md:justify-center items-center  p-5 gap-2 ">
-    <h1 className='text-3xl  font-semibold leading-10 md:text-[1.4vmax]'>Fallow Me: </h1>
-    <div className="flex gap-2">
-    <Link to="https://www.instagram.com/" >{insta}</Link>
-    <Link to="https://twitter.com/">{twitter}</Link>
-    <Link to="https://www.facebook.com/">{fb}</Link>
-    </div>
-    </div>
-    
-    </div>
+       <ul className='md:py-12 '>
+       <h1 className='text-2xl font-bold pb-2 opacity-100'>Resources</h1>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/page/student-parent-policy'>
+          <li className='md:text-[1vmax]  font-normal x'>Student & Parent Policy</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/page/teacher-policy'>
+          <li className='md:text-[1vmax]  font-normal'>Teacher Policy</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/faqs'>
+          <li className='md:text-[1vmax]  font-normal'>FAQs</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/page/stay-safe'>
+          <li className='md:text-[1vmax]  font-normal'>Stay Safe</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/page/share-a-story'>
+          <li className='md:text-[1vmax]  font-normal'>Share a story</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/refer'>
+          <li className='md:text-[1vmax]  font-normal'>Refer Us</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/raiseticket'>
+          <li className='md:text-[1vmax]  font-normal'>Raise A Ticket</li>
+        </Link>
+        <Link className='hover:text-blue-200 opacity-50' to='https://www.worldotutor.com/contact'>
+          <li className='md:text-[1vmax]  font-normal'>Contact</li>
+        </Link>
+       </ul>
+       </div>
+       <div  className='h-[420px] mx-2  w-full text-center p-12 '>
+        <h1 className='text-2xl font-bold pb-2'>Fallow Us</h1>
+         <span className='mx-2'>{fb}</span>
+         <span className='mx-2'>{insta}</span>
+       </div>
+       <div className='md:py-12 px-12'>
+       <h1 className='text-2xl font-bold pb-4'>Subscribe</h1>
+       <input type="text" className='py-4 px-6 rounded-xl' placeholder='Enter mail'/><br />
+       <button className='bg-orange-800 text-white px-12 text-2xl py-4 my-4 rounded-xl'>Submit Now</button>
+       </div>
+     </section>
+    <section className='py-4 border-t-2 w-full border-gray-700 '>
+       <div className='text-center '>
+         <ul className='flex  justify-center items-center pb-6'>
+          <Link to='https://www.worldotutor.com/page/testimonials-display-your-love-experience'> 
+          <li className='border-r-2 px-2 md:text-[1vmax] font-normal opacity-40 h-6'>Testimonials</li>
+          </Link> 
+          <Link to='https://www.worldotutor.com/page/terms-conditions'> 
+          <li className='border-r-2 px-2 md:text-[1vmax] font-normal opacity-40 h-6'>Terms</li>
+          </Link> 
+          <Link to='https://www.worldotutor.com/page/privacy-policy'> 
+          <li className='border-r-2 px-2 md:text-[1vmax] font-normal opacity-40 h-6'>Privacy Policy</li>
+          </Link> 
+          <Link to='https://www.worldotutor.com/page/refund-policy'> 
+          <li className=' px-2 md:text-[1vmax] font-normal opacity-40 h-6'> Refund Policy</li>
+          </Link> 
+         </ul>
+         <div className='opacity-40'>© 2024 All Rights Reserved.</div>
+       </div>
+    </section>
+    </div> 
   
    
   )

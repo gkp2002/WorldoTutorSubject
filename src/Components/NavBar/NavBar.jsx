@@ -31,7 +31,7 @@ function NavBar() {
     
           </div>
         
-        <div id="butons" className="mx-14 py-5 px-[2vmax] md:space-x-4  ">
+        <div id="butons" className="md:mx-14 py-5 px-[2vmax] md:space-x-4  ">
       
           <Link to='https://www.worldotutor.com/booktrial'>
           <button className="border-2 bg-orange-400 text-white  px-[2vmax] py-3 font-bold animate-pulse  border-yellow-700 rounded-xl hover:bg-blue-700 hover:text-white">
