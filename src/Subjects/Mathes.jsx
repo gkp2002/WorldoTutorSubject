@@ -3,6 +3,7 @@ import "./Math.css";
 import Marquee from "react-fast-marquee";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import Newsletter from "../Components/Newsatter/Newslatter";
+import {Link} from 'react-router-dom'
 function Mathes() {
   return (
     <div>
@@ -25,10 +26,12 @@ function Mathes() {
             <div className="md:px-11 px-4  flex flex-col justify-center">
               <h1 className="text-[3vmax]  font-extrabold text-red-700 ">
                LEARN FROM BEST TEACHERS
-              </h1>            
+              </h1>  
+              <Link to='/BookTrail'>
               <button className="border-2 bg-orange-400 text-white w-44  px-[2vmax] py-3 font-bold animate-pulse  border-yellow-700 rounded-xl hover:bg-blue-700 hover:text-white">
-                Book Now
+              Book Now
               </button>
+              </Link>          
             </div>
             <div className="flex justify-center items-center">
                <video className="rounded-xl relative h-96" src="/src/assets/vieo.mp4" width="600" height="300" autoPlay='true' loop muted controls type="video/mp4" ></video>
