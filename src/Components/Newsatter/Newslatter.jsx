@@ -34,7 +34,7 @@ export default class Newsletter extends Component {
     const { email, error } = this.state;
 
     return (
-      <div className="w-full h-auto text-center py-20">
+      <div className="w-full h-auto bg-blue-gray-50 text-center py-20">
         <section className="py-10">
           <h1 className="text-[2vmax] font-medium mb-6">Signup to Newsletter</h1>        
 

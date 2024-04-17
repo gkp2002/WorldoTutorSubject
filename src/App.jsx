@@ -6,14 +6,17 @@ import Mathes from "./Subjects/Mathes"
 import {Routes,Route} from 'react-router-dom'
 function App() {
    return (
-    <div className="bg-white ">
-      <PopPage/>
+    <div className="bg-white relative ">
+    <PopPage/>
       <NavBar/>
       <Routes>
           <Route path="/" element={<Mathes/>}></Route>
          <Route path="/Booktrail"  element={<Forms/>}/>
+         
       </Routes>
       <Footer/>
+    
+     
       </div>
   )
 }

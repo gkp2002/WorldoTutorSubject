@@ -1,44 +1,42 @@
 // import { Link } from "react-router-dom";
 import "./Math.css";
+import Marquee from "react-fast-marquee";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import Newsletter from "../Components/Newsatter/Newslatter";
 function Mathes() {
   return (
     <div>
-    <section style={{
-      backgroundImage:
-        'URL("https://www.whitehatjr.com/maths/media/math-banner/background.png")',
-    }} className=" bg-[-190px]">
-      <header className=" text-center text-orange-700   cursor-pointer " >
+    <section  className=" bg-[-190px] bg-blue-gray-50">
+      <header className=" text-center text-red-700   cursor-pointer " >
         <div>
           <h1 className="p-1 text-[1.6vmax] font-medium animate-pulse ">
             {" "}
             REGISTER ONLY FOR &#x20b9; 99
           </h1>{" "}
         </div>
-        <div className="p-1 text-[1.6vmax] font-medium">
+        <Marquee className="p-1 text-[1.6vmax] font-medium" speed='110'>
           2-HOUR WORKSHOP OF 2X2 RUBIK`S CUBE
-        </div>
+        </Marquee>
       </header>
 
         <div
           className=" flex justify-center t-[5vmax] md:h-[30vmax] relative md:px-11"   >
-          <div className="grid md:grid-cols-2  w-full mx-auto my-0 md:p-0 md:px-9    ">
-            <div className="md:px-11 px-4">
-              <h1 className="text-[3vmax]  font-extrabold text-orange-500 ">
+          <div className="md:grid md:grid-cols-2  w-full mx-auto my-0  md:p-0 md:px-9    ">
+            <div className="md:px-11 px-4  flex flex-col justify-center">
+              <h1 className="text-[3vmax]  font-extrabold text-red-700 ">
                LEARN FROM BEST TEACHERS
               </h1>            
-              <button className="border-2 bg-orange-400 text-white  px-[2vmax] py-3 font-bold animate-pulse  border-yellow-700 rounded-xl hover:bg-blue-700 hover:text-white">
+              <button className="border-2 bg-orange-400 text-white w-44  px-[2vmax] py-3 font-bold animate-pulse  border-yellow-700 rounded-xl hover:bg-blue-700 hover:text-white">
                 Book Now
               </button>
             </div>
-            <div className="">
+            <div className="flex justify-center items-center">
                <video className="rounded-xl relative h-96" src="/src/assets/vieo.mp4" width="600" height="300" autoPlay='true' loop muted controls type="video/mp4" ></video>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-white w-full h-auto mx-auto md:px-32 relative">
+      <section className="bg-blue-gray-50  w-full h-auto mx-auto md:px-32 relative">
         <header className="text-center ">
           <h1 className="text-[2.2vmax] font-medium pt-20">
             Why Create with Math?

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons'
 function Footer() {
   const twitter= <SocialIcon url="https://twitter.com" />;
-  const insta =  <SocialIcon url="https://instagram.com" />;
-  const fb=<SocialIcon url="https://facebook.com" />;
+  const insta =  <SocialIcon url="https://www.instagram.com/world_o_tutor/" />;
+  const fb=<SocialIcon url="https://www.facebook.com/worldotutors" />;
 
   return (
     <div className="bg-black md:flex md:justify-center md:items-center flex-col text-white w-full py-0">
@@ -50,7 +50,7 @@ function Footer() {
          <span className='mx-2'>{fb}</span>
          <span className='mx-2'>{insta}</span>
        </div>
-       <div className='md:py-12 px-12'>
+       <div className='md:py-12 px-12 text-black'>
        <h1 className='text-2xl font-bold pb-4'>Subscribe</h1>
        <input type="text" className='py-4 px-6 rounded-xl' placeholder='Enter mail'/><br />
        <button className='bg-orange-800 text-white px-12 text-2xl py-4 my-4 rounded-xl'>Submit Now</button>
