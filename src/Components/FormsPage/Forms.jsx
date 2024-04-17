@@ -87,7 +87,7 @@ function Forms() {
       alert(response.error.description);
       alert(response.error.source);
       alert(response.error.step);
-      alert(response.error.reason);
+      alert(response.error.reason); 
       alert(response.error.metadata.order_id);
       alert(response.error.metadata.payment_id);
     });
@@ -97,9 +97,9 @@ function Forms() {
   
   return (
     <section>
-    <div className="md:flex  justify-evenly py-11 ">
+    <div className="md:flex  justify-evenly py-11 md:px-44 ">
 
-    <div className="md:w-[45%] h-auto md:shadow-2xl py-11">
+    <div className="md:w-[45%] h-auto md:shadow-2xl py-11 ">
     <div>
     <img src="https://www.worldotutor.com/assets/images/worldotutor_why1.png" alt="" />
     </div>
